@@ -110,7 +110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a9ed3c0c9603ac479d449e076562a73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pathCreator: {fileID: 3345998748488836846, guid: 430991713698f4149a0f5b7fe61506b0,
+  pathCreator: {fileID: 6125061011631554569, guid: b6bdad610106c7e4f84b8969105a53b9,
     type: 3}
   simpleEnemy: {fileID: 8374167652347516587}
 --- !u!65 &8374167652347516565
@@ -138,9 +138,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68455a8755dcf49f48b25256bcc4400e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialSpeed: 5
+  initialSpeed: 10
   speed: 0
-  startHealth: 20
+  startHealth: 100
   money: 10
   deathEffect: {fileID: 7882096482683454413, guid: e340acda3be61f5b9a403b862a498cf5,
     type: 3}

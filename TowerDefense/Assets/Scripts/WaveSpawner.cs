@@ -7,6 +7,8 @@ public class WaveSpawner : MonoBehaviour{
 
     public Wave[] waves;
 
+    public GameManager gameManager;
+
     public Transform spawnPoint;
 
     public float timeBetwenWaves = 5f;
@@ -18,6 +20,12 @@ public class WaveSpawner : MonoBehaviour{
         if(EnemiesAlive > 0){
             return;
         }
+
+        if (waveIndex == waves.Length){
+            gameManager.WinLevel();
+            this.enabled = false;
+        }
+
         if (countdown <= 0){
             StartCoroutine(SpawnWave());
             countdown = timeBetwenWaves;
@@ -41,6 +49,7 @@ public class WaveSpawner : MonoBehaviour{
             yield return new WaitForSeconds(1f / wave.rate);
         }
         waveIndex++;
+
     }
 
     void SpawnEnemy(GameObject enemy){
