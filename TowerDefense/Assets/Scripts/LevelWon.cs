@@ -12,7 +12,7 @@ public class LevelWon : MonoBehaviour{
     public SceneFader sceneFader;
 
     public int levelToUnlock = 2;
-    public string nextLevel = "Level2";
+    public string nextLevel = "";
 
     void Start(){
         changeColor();
@@ -22,12 +22,12 @@ public class LevelWon : MonoBehaviour{
         
     }
     public void changeColor(){
-        if (PlayerStats.Lives == 20){
+        if (PlayerStats.Lives == 10){
             img1.GetComponent<Image>().color = new Color32(255, 213, 0, 255);
             img2.GetComponent<Image>().color = new Color32(255, 213, 0, 255);
             img3.GetComponent<Image>().color = new Color32(255, 213, 0, 255);
         }
-        else if (PlayerStats.Lives < 20  &&  PlayerStats.Lives >= 15){
+        else if (PlayerStats.Lives < 10  &&  PlayerStats.Lives >= 5){
             img1.GetComponent<Image>().color = new Color32(255, 213, 0, 255);
             img2.GetComponent<Image>().color = new Color32(255, 213, 0, 255);
         }
@@ -42,6 +42,6 @@ public class LevelWon : MonoBehaviour{
     }
 
     public void Menu(){
-        sceneFader.FadeTo("MainMenu");
+        sceneFader.FadeTo("Map");
     }
 }

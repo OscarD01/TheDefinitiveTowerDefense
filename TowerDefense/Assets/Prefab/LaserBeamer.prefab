@@ -109,7 +109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c47eeb20d763e6726a4ca035f1f08a70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 10
+  range: 17
   turretName: Lasser Beamer
   turretDescription: Lanza Rayos
   buyPrice: 350
@@ -121,6 +121,8 @@ MonoBehaviour:
   lineRenderer: {fileID: 789852687447156699}
   impactEffect: {fileID: 789852687800504744}
   impactLight: {fileID: 789852687933638323}
+  damageOverTime: 20
+  slowPct: 0.5
   enemyTag: Enemy
   partToRotate: {fileID: 789852687326138778}
   turnSpeed: 10

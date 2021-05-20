@@ -45,18 +45,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c47eeb20d763e6726a4ca035f1f08a70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 30
+  range: 45
   turretName: Missile Launcher
   turretDescription: Lanza Misilacos
   buyPrice: 250
   sellPrice: 0
   bulletPrefab: {fileID: 3610607669254840701, guid: da2c9c18c9d19db4fa7d8eb43eeef884,
     type: 3}
-  dmg: 100
+  dmg: 80
   fireRate: 0.25
   useLaser: 0
   lineRenderer: {fileID: 0}
   impactEffect: {fileID: 0}
+  impactLight: {fileID: 0}
+  damageOverTime: 30
+  slowPct: 0.5
   enemyTag: Enemy
   partToRotate: {fileID: 3654692679267824518}
   turnSpeed: 10

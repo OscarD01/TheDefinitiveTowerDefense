@@ -11,6 +11,8 @@ public class TowerRequestManager : MonoBehaviour
     public static TowerRequestManager instance;
     public GameObject buildEffect;
 
+    public Turret turretScript;
+
     private Turret turret;
 
 
@@ -56,15 +58,7 @@ public class TowerRequestManager : MonoBehaviour
         Node.selectedNode = null;    
 
         Debug.Log("Money Left" + PlayerStats.Money);
-        //Destroy(turret, 1.0f);
-        //Debug.Log("borrado");
-    }
 
-    public void DestroyTower()
-    {
-        //Destroy(Node.selectedNode.turretOcuped); 
-        //turret.SetActive(false);
-        Debug.Log("borrado");
     }
     
 

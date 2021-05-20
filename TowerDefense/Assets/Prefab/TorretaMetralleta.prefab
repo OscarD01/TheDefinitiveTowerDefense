@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c47eeb20d763e6726a4ca035f1f08a70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 15
+  range: 13
   turretName: Torreta Metralleta
   turretDescription: Dispara desde abajo
   buyPrice: 100

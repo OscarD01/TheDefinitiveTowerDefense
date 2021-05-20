@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class LevelSelection : MonoBehaviour
 {
@@ -34,6 +35,14 @@ public class LevelSelection : MonoBehaviour
             }
         }
 
+    }
+
+    public void PressSelection (string _LevelName)
+    {
+        if (unlocked)
+        {
+            SceneManager.LoadScene(_LevelName);
+        }
     }
 
 }

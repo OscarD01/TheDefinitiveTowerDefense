@@ -9,6 +9,7 @@ public class PauseMenu : MonoBehaviour{
 
     void Update(){
         if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.P)){
+            Debug.Log("Pause");
             Toggle();
         }
     }
@@ -29,13 +30,13 @@ public class PauseMenu : MonoBehaviour{
     }
 
     public void Retry(){
-        Toggle();
+        Time.timeScale = 1f;
         sceneFader.FadeTo(SceneManager.GetActiveScene().name);
     }
 
     public void Menu() {
-        Toggle();
-        sceneFader.FadeTo("MainMenu");
+        Time.timeScale = 1f;
+        sceneFader.FadeTo("Map");
     }
 
 }

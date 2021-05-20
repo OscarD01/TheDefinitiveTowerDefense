@@ -6,11 +6,9 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
 
-    public SceneFader sceneFader;
-
     public void PlayGame()
     {
-        sceneFader.FadeTo("SampleScene");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void QuitGame()

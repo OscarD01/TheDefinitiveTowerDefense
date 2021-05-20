@@ -8,8 +8,6 @@ public class TowerUIPanelManager : MonoBehaviour{
     public TextMeshProUGUI turretRangeText;
     public TextMeshProUGUI turretDMGText;
     public TextMeshProUGUI turretVelocityText;
-    public TextMeshProUGUI turretSellPriceText;
-    public TextMeshProUGUI turretUpgradePriceText;
     public GameObject root;
 
     public static TowerUIPanelManager instance;
@@ -38,8 +36,6 @@ public class TowerUIPanelManager : MonoBehaviour{
         turretRangeText.text = "Rango: " + turret.range.ToString();
         turretDMGText.text = "Daño: " + turret.dmg.ToString();
         turretVelocityText.text = "Cadencia: " + turret.turnSpeed.ToString();
-        turretSellPriceText.text = turret.sellPrice.ToString() + "$";
-        turretUpgradePriceText.text = turret.upgradePrice.ToString() + "$";
     }
     public void ClosePanel()
     {
