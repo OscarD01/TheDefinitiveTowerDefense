@@ -18,6 +18,6 @@ public class GameOver : MonoBehaviour{
 
     public void Menu()
     {
-        sceneFader.FadeTo("MainMenu");
+        sceneFader.FadeTo("Map");
     }
 }

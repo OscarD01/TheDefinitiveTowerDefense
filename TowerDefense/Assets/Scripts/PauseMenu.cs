@@ -5,11 +5,11 @@ public class PauseMenu : MonoBehaviour{
 
     public GameObject ui;
 
+
     public SceneFader sceneFader;
 
     void Update(){
         if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.P)){
-            Debug.Log("Pause");
             Toggle();
         }
     }
@@ -31,11 +31,13 @@ public class PauseMenu : MonoBehaviour{
 
     public void Retry(){
         Time.timeScale = 1f;
+        WaveSpawner.EnemiesAlive = 0;
         sceneFader.FadeTo(SceneManager.GetActiveScene().name);
     }
 
     public void Menu() {
         Time.timeScale = 1f;
+        WaveSpawner.EnemiesAlive = 0;
         sceneFader.FadeTo("Map");
     }
 

@@ -11,9 +11,23 @@ public class LevelSelection : MonoBehaviour
     public Image unlockImage;
     public GameObject[] stars;
 
+    public Sprite starSprite;
+
+
     private void Update()
     {
         UpdateLevelImage();
+        UpdateLevelStatus();
+    }
+
+    private void UpdateLevelStatus()
+    {
+
+        int previousLevelNum = int.Parse(gameObject.name) - 1;
+        if(PlayerPrefs.GetInt("Lv" + previousLevelNum) > 0)//If the first level star is bigger than 0, second level can play.
+        {
+            unlocked = true;
+        }
     }
 
     private void UpdateLevelImage()
@@ -33,6 +47,12 @@ public class LevelSelection : MonoBehaviour
             {
                 stars[i].gameObject.SetActive(true);
             }
+
+            for(int i = 0; i<PlayerPrefs.GetInt("Lv" + gameObject.name); i++)
+            {
+                stars[i].gameObject.GetComponent<Image>().sprite = starSprite;
+            }
+
         }
 
     }

@@ -12,7 +12,7 @@ public class Follower : MonoBehaviour
     private float lenght;
 
     void Start(){
-        
+        Time.timeScale = 1f;
     }
 
     private void Awake(){

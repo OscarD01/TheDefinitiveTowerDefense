@@ -116,7 +116,7 @@ MonoBehaviour:
   sellPrice: 0
   bulletPrefab: {fileID: 0}
   dmg: 20
-  fireRate: 1
+  fireRate: 9999
   useLaser: 1
   lineRenderer: {fileID: 789852687447156699}
   impactEffect: {fileID: 789852687800504744}
@@ -9964,9 +9964,9 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -8418019662413110148, guid: b9366af30dde06f4e9b19c3b27d981e9, type: 3}
+  - {fileID: 2100000, guid: 45269f404b6abfd43b639c2f22ae503c, type: 2}
   - {fileID: 2100000, guid: d29dda260a1e2e84f893dbbe84c87a61, type: 2}
-  - {fileID: 4387638107276554849, guid: b9366af30dde06f4e9b19c3b27d981e9, type: 3}
+  - {fileID: 2100000, guid: 22f7aa3221806954c9295768c010ca60, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

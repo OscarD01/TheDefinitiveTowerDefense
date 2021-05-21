@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8643941661244992532
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8643941661244992530}
+  - component: {fileID: 8643941661244992531}
+  m_Layer: 8
+  m_Name: CaminoLVL4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8643941661244992530
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8643941661244992532}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 18.16, y: 9.9, z: 61.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8643941661244992531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8643941661244992532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e5ac92bc18f545cc84cd886ece82b4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  editorData:
+    _bezierPath:
+      points:
+      - {x: -9.607185, y: 0, z: -28.091309}
+      - {x: -9.217916, y: 0, z: -28.005447}
+      - {x: 5.464607, y: 0, z: -38.86164}
+      - {x: 9.897297, y: 0, z: -40.29965}
+      - {x: 12.668011, y: 0, z: -41.198494}
+      - {x: 15.466087, y: 0, z: -44.0797}
+      - {x: 20.734566, y: 0, z: -39.185505}
+      - {x: 21.142666, y: 0, z: -38.806396}
+      - {x: 24.962032, y: 0, z: -32.30626}
+      - {x: 23.733067, y: 0, z: -28.390266}
+      - {x: 21.77413, y: 0, z: -22.148287}
+      - {x: 8.653074, y: 0, z: -21.598038}
+      - {x: 4.7553062, y: 0, z: -12.7481}
+      - {x: -1.2730703, y: 0, z: 0.939414}
+      - {x: -2.5531006, y: 0, z: 13.580627}
+      - {x: 3.873722, y: 0, z: 18.55796}
+      - {x: 10.77112, y: 0, z: 23.899736}
+      - {x: 20.948376, y: 0, z: 10.584778}
+      - {x: 25.89442, y: 0, z: 2.8264923}
+      - {x: 26.055466, y: 0, z: 2.5738797}
+      - {x: 30.100647, y: 0, z: -4.978861}
+      - {x: 34.542183, y: 0, z: -12.044609}
+      - {x: 37.02132, y: 0, z: -15.988507}
+      - {x: 36.954067, y: 0, z: -18.149002}
+      - {x: 38.67608, y: 0, z: -21.392757}
+      - {x: 38.770443, y: 0, z: -21.57051}
+      - {x: 40.125385, y: 0, z: -24.279257}
+      - {x: 42.324844, y: 0, z: -25.797943}
+      - {x: 45.230915, y: 0, z: -27.804533}
+      - {x: 49.24762, y: 0, z: -28.71163}
+      - {x: 49.842617, y: 0, z: -28.853378}
+      - {x: 50.713943, y: 0, z: -29.060957}
+      - {x: 61.38983, y: 0, z: -30.01938}
+      - {x: 62.312122, y: 0, z: -30.162247}
+      - {x: 67.945724, y: 0, z: -31.034918}
+      - {x: 64.26375, y: 0, z: -30.04775}
+      - {x: 64.681076, y: 0, z: -30.41382}
+      - {x: 73.4503, y: 0, z: -38.105972}
+      isClosed: 1
+      space: 0
+      controlMode: 0
+      autoControlLength: 0.3
+      boundsUpToDate: 0
+      bounds:
+        m_Center: {x: 27.536945, y: 0.0000021722583, z: -11.08674}
+        m_Extent: {x: 37.14413, y: 0.000005033281, z: 30.8751}
+      perAnchorNormalsAngle:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 330.93634
+      - 328.99518
+      - 321.6389
+      - 319.35165
+      - 303.27283
+      - 313.15353
+      - 311.85162
+      - 301.2927
+      - 0
+      - 0
+      globalNormalsAngle: 90
+      flipNormals: 1
+    vertexPathUpToDate: 1
+    vertexPathMaxAngleError: 0.3
+    vertexPathMinVertexSpacing: 0.01
+    showTransformTool: 1
+    showPathBounds: 0
+    showPerSegmentBounds: 0
+    displayAnchorPoints: 1
+    displayControlPoints: 1
+    bezierHandleScale: 1
+    globalDisplaySettingsFoldout: 0
+    keepConstantHandleSize: 1
+    showNormalsInVertexMode: 0
+    showBezierPathInVertexMode: 0
+    showDisplayOptions: 1
+    showPathOptions: 1
+    showVertexPathDisplayOptions: 0
+    showVertexPathOptions: 1
+    showNormals: 1
+    showNormalsHelpInfo: 0
+    tabIndex: 0
+  initialized: 1

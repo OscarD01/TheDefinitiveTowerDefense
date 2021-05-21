@@ -32,10 +32,9 @@ public class TowerUIPanelManager : MonoBehaviour{
     }
     private void SetValues(){
         turretNameText.text = turret.turretName;
-        turretDescriptionText.text = turret.turretDescription;
         turretRangeText.text = "Rango: " + turret.range.ToString();
         turretDMGText.text = "Daño: " + turret.dmg.ToString();
-        turretVelocityText.text = "Cadencia: " + turret.turnSpeed.ToString();
+        turretVelocityText.text = "Cadencia: " + turret.fireRate.ToString();
     }
     public void ClosePanel()
     {

@@ -20,8 +20,13 @@ public class WaveSpawner : MonoBehaviour{
         Debug.Log("Startted");
     }
 
+    private void Awake(){
+        Time.timeScale = 1f;
+    }
+
     public Text waveCountdownText;
     void Update(){
+        Debug.Log("Hola");
         if(EnemiesAlive > 0){
             return;
         }

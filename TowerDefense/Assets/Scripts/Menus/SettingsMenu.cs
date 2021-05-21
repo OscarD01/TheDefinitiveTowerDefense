@@ -55,4 +55,9 @@ public class SettingsMenu : MonoBehaviour
     {
         Screen.fullScreen = isFullscreen;
     }
+
+    public void ResetStats()
+    {
+        PlayerPrefs.DeleteAll();
+    }
 }
